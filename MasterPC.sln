@@ -1,27 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.5.2.0
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11620.152 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winhance.Core", "src\Winhance.Core\Winhance.Core.csproj", "{435BD57D-C7D2-BB8F-1732-C2BD8A5319C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterPC.Infrastructure", "src\Winhance.Infrastructure\MasterPC.Infrastructure.csproj", "{605AD60B-7A44-6C1B-E19E-C5593C889B64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winhance.Infrastructure", "src\Winhance.Infrastructure\Winhance.Infrastructure.csproj", "{605AD60B-7A44-6C1B-E19E-C5593C889B64}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winhance.UI", "src\Winhance.UI\Winhance.UI.csproj", "{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterPC.UI", "src\Winhance.UI\MasterPC.UI.csproj", "{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsPackageManager.Interop", "src\WindowsPackageManager.Interop\WindowsPackageManager.Interop.csproj", "{83E66269-737B-4ED1-95BB-AF5ED53C462A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05-4346-4AA6-1389-037BE0695223}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winhance.Core.Tests", "tests\Winhance.Core.Tests\Winhance.Core.Tests.csproj", "{12F410EE-B2E6-418E-B6DD-9A6225D7C5B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterPC.Core.Tests", "tests\Winhance.Core.Tests\MasterPC.Core.Tests.csproj", "{12F410EE-B2E6-418E-B6DD-9A6225D7C5B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winhance.Infrastructure.Tests", "tests\Winhance.Infrastructure.Tests\Winhance.Infrastructure.Tests.csproj", "{A2EE92F5-68F4-4E2A-A158-3253FA66C40B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterPC.Infrastructure.Tests", "tests\Winhance.Infrastructure.Tests\MasterPC.Infrastructure.Tests.csproj", "{A2EE92F5-68F4-4E2A-A158-3253FA66C40B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winhance.UI.Tests", "tests\Winhance.UI.Tests\Winhance.UI.Tests.csproj", "{CEE9AFC0-5DE8-4BBE-860F-531F026DB505}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterPC.UI.Tests", "tests\Winhance.UI.Tests\MasterPC.UI.Tests.csproj", "{CEE9AFC0-5DE8-4BBE-860F-531F026DB505}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winhance.IntegrationTests", "tests\Winhance.IntegrationTests\Winhance.IntegrationTests.csproj", "{B1C2D3E4-F5A6-7890-BCDE-F12345678901}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterPC.IntegrationTests", "tests\Winhance.IntegrationTests\MasterPC.IntegrationTests.csproj", "{B1C2D3E4-F5A6-7890-BCDE-F12345678901}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,18 +31,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{435BD57D-C7D2-BB8F-1732-C2BD8A5319C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{435BD57D-C7D2-BB8F-1732-C2BD8A5319C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{435BD57D-C7D2-BB8F-1732-C2BD8A5319C7}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{435BD57D-C7D2-BB8F-1732-C2BD8A5319C7}.Debug|x64.Build.0 = Debug|Any CPU
-		{435BD57D-C7D2-BB8F-1732-C2BD8A5319C7}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{435BD57D-C7D2-BB8F-1732-C2BD8A5319C7}.Debug|x86.Build.0 = Debug|Any CPU
-		{435BD57D-C7D2-BB8F-1732-C2BD8A5319C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{435BD57D-C7D2-BB8F-1732-C2BD8A5319C7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{435BD57D-C7D2-BB8F-1732-C2BD8A5319C7}.Release|x64.ActiveCfg = Release|Any CPU
-		{435BD57D-C7D2-BB8F-1732-C2BD8A5319C7}.Release|x64.Build.0 = Release|Any CPU
-		{435BD57D-C7D2-BB8F-1732-C2BD8A5319C7}.Release|x86.ActiveCfg = Release|Any CPU
-		{435BD57D-C7D2-BB8F-1732-C2BD8A5319C7}.Release|x86.Build.0 = Release|Any CPU
 		{605AD60B-7A44-6C1B-E19E-C5593C889B64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{605AD60B-7A44-6C1B-E19E-C5593C889B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{605AD60B-7A44-6C1B-E19E-C5593C889B64}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -134,7 +120,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{435BD57D-C7D2-BB8F-1732-C2BD8A5319C7} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{605AD60B-7A44-6C1B-E19E-C5593C889B64} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{83E66269-737B-4ED1-95BB-AF5ED53C462A} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}

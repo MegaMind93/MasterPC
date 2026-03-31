@@ -26,7 +26,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Winhance.Core\Winhance.Core.csproj" />
-    <ProjectReference Include="..\..\src\Winhance.Infrastructure\Winhance.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\Winhance.Infrastructure\MasterPC.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

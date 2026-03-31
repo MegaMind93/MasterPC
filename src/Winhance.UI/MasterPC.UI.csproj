@@ -86,7 +86,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Winhance.Core\Winhance.Core.csproj" />
-    <ProjectReference Include="..\Winhance.Infrastructure\Winhance.Infrastructure.csproj" />
+    <ProjectReference Include="..\Winhance.Infrastructure\MasterPC.Infrastructure.csproj" />
   </ItemGroup>
 
   <!-- Content files (localization) - uses local UI project files -->
